@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Map from "./pages/js/Map";
 import './App.scss';
-
-const env = process.env.REACT_APP_TEST_ENVIRONMENT_VARIABLE;
 
 function App() {
   return (
     <div className="App">
+      <Map />
     </div>
   );
 }
